@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Дз 1</title>
+    <title>Lesson1</title>
+    <script>
+        //The task 1.
+        var Tc = parseInt(prompt('Введите температуру в Цельсиях'));
+        var Tf = (9 / 5) * Tc + 32;
+        alert('Температура полученная по Фаренгейту: ' + Tf);
+        //The task 2.
+        var name = ('Василий');
+        var admin = name;
+        alert(admin);
+        //The task 3.
+        alert(1000 + '108'); //Выведет 1000108,потому что<1000>-числовое значение,а<'108'>-строчное.
+    </script>
 </head>
+
 <body>
-    <div class="container">
-        <h3>
-            Домашнее задание к уроку 1 по JavaScript
-        </h3>
-        <button class="btn btn-primary btn-lg btn-block" onclick=converter()>Упражнение 1</button>
-        <button class="btn btn-primary btn-lg btn-block" onclick=admin()>Упражнение 2</button>
-        <button class="btn btn-primary btn-lg btn-block" onclick=ex3()>Упражнение 3</button>
-        <button class="btn btn-primary btn-lg btn-block" onclick=ex4()>Упражнение 4</button>
-        <div id="answer3">
-        </div>
-        <div id="answer4">
-        </div>
-    </div>
+    <!--The task 4.-->
+    <script async src="script.js"></script>
+    <H1>Заголовок</H1>
 </body>
+
 </html>
